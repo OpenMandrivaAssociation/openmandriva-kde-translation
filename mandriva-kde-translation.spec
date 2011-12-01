@@ -27,13 +27,13 @@ Mandriva KDE.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/locale
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_datadir}/locale
 
 #make po_files
 for i in ./*.po
 do
-  langdir="$RPM_BUILD_ROOT%{_datadir}/locale/`basename ${i} .po`/LC_MESSAGES/"
+  langdir="%{buildroot}%{_datadir}/locale/`basename ${i} .po`/LC_MESSAGES/"
   mkdir -p ${langdir}
   msgfmt -o	${langdir}/mandriva-kde-translation.mo ${i}
 done
@@ -41,4 +41,4 @@ done
 %find_lang %{name} mandriva-kde-translation
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
