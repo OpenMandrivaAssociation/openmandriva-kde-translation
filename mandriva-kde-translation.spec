@@ -1,7 +1,7 @@
 Summary:	Localization files for Mandriva KDE strings
 Name:		mandriva-kde-translation
 Version:	2012.1
-Release:	1
+Release:	3
 License:	GPL
 Group:		System/Base
 URL:		http://www.rosalinux.com
