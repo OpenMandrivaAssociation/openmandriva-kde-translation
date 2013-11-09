@@ -8,6 +8,7 @@ URL:		%{disturl}
 Source0:	%{name}-%{version}.tar.xz
 BuildRequires:	gettext
 BuildArch:	noarch
+%rename		mandriva-kde-translations
 
 %description
 This package includes that translations that have been added on
