@@ -1,14 +1,14 @@
 Summary:	Localization files for %{distribution} KDE strings
 Name:		openmandriva-kde-translation
 Version:	2013.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		System/Base
 URL:		%{disturl}
 Source0:	%{name}-%{version}.tar.xz
 BuildRequires:	gettext
 BuildArch:	noarch
-%rename		mandriva-kde-translations
+%rename		mandriva-kde-translation
 
 %description
 This package includes that translations that have been added on
