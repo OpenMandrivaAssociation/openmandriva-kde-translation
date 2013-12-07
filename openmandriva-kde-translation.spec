@@ -1,7 +1,7 @@
 Summary:	Localization files for %{distribution} KDE strings
 Name:		openmandriva-kde-translation
 Version:	2013.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		System/Base
 URL:		%{disturl}
